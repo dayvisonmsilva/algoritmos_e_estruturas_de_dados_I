@@ -16,8 +16,9 @@ int main () {
     
     printf("VETOR 'INTEIROS': \n");
     for (i = 0; i < 10; i++) {
-        printf("inteiros[%i] \n", inteiros[i]);
+        printf("%i ", inteiros[i]);
     }
+    printf("\n");
 
     free(inteiros);
     return 0;
