@@ -14,7 +14,7 @@ for (i = 0; i < linhas; i++) {
 
 for (i = 0; i < linhas; i++)
     for (j = 0; j < colunas; j++)
-        matriz[i][j] = j;
+        matriz[i][j] = i*3 + j;
 
 for (i = 0; i < linhas; i++) {
     for (j = 0; j < colunas; j++){
