@@ -12,7 +12,7 @@ int main () {
     float *precoFrutas = (float *) malloc(quantidadeFrutas * sizeof(float));
     char **nomesFrutas = (char **) malloc(quantidadeFrutas * sizeof(char*));
     
-    // Alocando cada linha da matriz nomeFrutas
+    // Alocando cada linha da matriz 'nomeFrutas'
     for (i = 0; i < quantidadeFrutas; i++) {
         nomesFrutas[i] = (char *) malloc(100 * sizeof(char));
     }
@@ -54,4 +54,3 @@ int main () {
 
     return 0;
 }
-
